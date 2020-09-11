@@ -1,0 +1,33 @@
+[
+{"type":"header","version":"4.9.0.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"photo_cage"},
+{"type":"table","name":"posts","database":"photo_cage","data":
+[
+{"id":"5","title":"Пфа афауц ","date":"17\/02\/2222","image":"img-item-4.png","moderated":"1"},
+{"id":"6","title":"Пфа афауц ","date":"17\/02\/2200","image":"img-item-5.png","moderated":"1"},
+{"id":"20","title":"судак","date":"31\/08\/2020","image":"судак-аренда-главная.jpg","moderated":"1"},
+{"id":"26","title":"Photo-mail-small1","date":"31\/08\/2020","image":"Photo-mail-small1.png","moderated":"1"},
+{"id":"27","title":"article-main-afa aaf","date":"31\/08\/2020","image":"article-main.png","moderated":"1"},
+{"id":"29","title":"Каша","date":"31\/08\/2020","image":"Photo-mail-small3.png","moderated":"1"},
+{"id":"40","title":"Прироженое","date":"03\/09\/2022","image":"article-main.png","moderated":"1"},
+{"id":"46","title":"Пляж","date":"03\/09\/2020","image":"img-item-3.png","moderated":"1"},
+{"id":"47","title":"Солнце","date":"03\/09\/2020","image":"img-item-5.png","moderated":"1"},
+{"id":"48","title":"Шпиль","date":"03\/09\/2020","image":"img-item-1.png","moderated":"1"},
+{"id":"49","title":"Индия","date":"03\/09\/2020","image":"img-item-7.png","moderated":"1"},
+{"id":"50","title":"Нафафыа","date":"03\/09\/2022","image":"6.png","moderated":"1"},
+{"id":"51","title":"author-avatar","date":"07\/09\/2020","image":"author-avatar.png","moderated":"0"},
+{"id":"52","title":"Бабочка","date":"07\/09\/2020","image":"img-item-10.png","moderated":"1"},
+{"id":"53","title":"img-item-12","date":"07\/09\/2020","image":"img-item-12.png","moderated":"0"}
+]
+}
+,{"type":"table","name":"users","database":"photo_cage","data":
+[
+{"id":"1","email":"admin@photo-cage.com","login":"admin","name":"Админ","password":"$2y$10$LFrNAeaStL\/cQpK9Lnv5aO87emzX4qmMKVWPA1JRzdGHKiCYqOwjO","admin":"1"},
+{"id":"39","email":"nikitas44782@gmail.com","login":"BloodEnemy2","name":"Никита","password":"$2y$10$6s8zOiQzlAfajlCxP\/THXO9BO1nAPdAT3sPuUEMixDkFzpAkTqhb6","admin":"0"},
+{"id":"38","email":"nikitas4478@gmail.com","login":"BloodEnemy","name":"Никита","password":"$2y$10$O3VQDbnJ7G\/wPwLbVqq6FeYtXIBw9RGaYzE93eKBAUlZe5Ewv80ii","admin":"0"},
+{"id":"40","email":"123123@gmail.com","login":"123123","name":"Киррил","password":"$2y$10$6H\/x1QrzdhOAvJ.bO4Fsd.5yq4iTklewxcQg2I5969u1FSdPAxrZS","admin":"0"},
+{"id":"41","email":"18@gmail.com","login":"321312","name":"Nikita","password":"$2y$10$SgU.V\/OoU.FSIfJUSkQijelPiNjDnoDbLKDi\/utW9nElFva3Gv60q","admin":"0"},
+{"id":"43","email":"nikitas447833@gmail.com","login":"123123123123","name":"Никита","password":"$2y$10$ZaOmKx\/5CaSFJomd9MqlHujhzZy1zDvuvvZWAVi8lcD0amkzqg48K","admin":"0"}
+]
+}
+]
