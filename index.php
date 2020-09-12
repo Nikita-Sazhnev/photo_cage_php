@@ -8,7 +8,8 @@ $tableName = 'posts';
 ?>
 <?php include 'php/head.php' ?>
 <body>
-	<?php if($_COOKIE['rights'] == 'qw46er4qwe6r4qwqw64qwreqhghk') echo "<a href=\"admin/\">Админ панель</a>";?>
+	<?php if($_COOKIE['rights'] == 'qw46er4qwe6r4qwqw64qwreqhghk') 
+		echo "<a href=\"admin/\">Админ панель</a>";?>
 	<?php include 'php/header.php' ?>
 	<main class="warpper">
 		<?php include 'php/upload-form.php' ?>
@@ -20,7 +21,8 @@ $tableName = 'posts';
 				<article class="post">
 					<div class="main__image">
 						<div class="image__holder">
-							<img class="lazy preview__image" data-src="/img/thumbnails/<?=$post['image']; ?>" alt="<?=$post['title']?>">
+							<img class="lazy preview__image" data-src="/img/thumbnails/<?=$post['image']; ?>" 
+							alt="<?=$post['title']?>">
 						</div>
 						<a data-fancybox="gallery" href="/img/full/<?=$post['image']; ?>">
 							<div class="main__upskale">
@@ -32,7 +34,10 @@ $tableName = 'posts';
 						</div>
 						<div class="main__naming">
 							<div class="main__naming-name">
-								<a title="<?php if (mb_strlen($post['title']) > 23) echo $post['title']; ?>" href="<?=$post['url']?>" target="_blank"><?=$post['title']; ?></a>
+								<a title="<?php if (mb_strlen($post['title']) > 23) echo $post['title']; ?>"
+								  href="<?=$post['url']?>"
+								  target="_blank"><?=$post['title']; ?>
+								</a>
 							</div>
 							<div class="main__naming-favor">
 								<img class="favor_img" id="imgFavor" src="img/favourite.png" alt="">
