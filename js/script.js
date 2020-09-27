@@ -40,3 +40,9 @@ Array.prototype.forEach.call(fields, function (input) {
     else label.querySelector(".field__file-fake").innerText = labelVal;
   });
 });
+
+document.querySelectorAll(".favor_img").forEach((e) => {
+  e.addEventListener("click", function () {
+    this.classList.toggle("fav_active");
+  });
+});
