@@ -1,3 +1,5 @@
+menu.addEventListener("click", () => myTopnav.classList.toggle("responsive"));
+
 $(function () {
   $(".lazy").Lazy();
 });
@@ -13,8 +15,6 @@ $(".lazy").Lazy({
     console.log("error loading " + element.data("src"));
   },
 });
-
-menu.addEventListener("click", () => myTopnav.classList.toggle("responsive"));
 
 let fields = document.querySelectorAll(".field__file");
 Array.prototype.forEach.call(fields, function (input) {
