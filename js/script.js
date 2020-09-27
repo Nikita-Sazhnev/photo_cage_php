@@ -14,15 +14,7 @@ $(".lazy").Lazy({
   },
 });
 
-menu.onclick = function myFunction() {
-  let x = document.getElementById("myTopnav");
-
-  if (x.className == "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-};
+menu.addEventListener("click", () => myTopnav.classList.toggle("responsive"));
 
 let fields = document.querySelectorAll(".field__file");
 Array.prototype.forEach.call(fields, function (input) {
